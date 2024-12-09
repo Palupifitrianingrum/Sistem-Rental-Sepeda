@@ -332,7 +332,6 @@ void Reservation::pay(){
 			cout<<"Kembali ke Halaman Utama";
 			Sleep(1000);
 			system("cls");
-			who_are_you();
 			myBike.success();
 		}
 		else{
@@ -344,6 +343,7 @@ void Reservation::pay(){
 		cout<<"Kembali ke Menu Utama\n";
 		who_are_you();
 	}
+	who_are_you();
 }
 
 
